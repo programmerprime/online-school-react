@@ -1,0 +1,19 @@
+.main-component {
+    width: 700px;
+
+    border: 2px solid lightgray;
+    padding:20px;
+    margin: 20px;
+}
+
+.main-component h2 {
+    color: slateblue;
+}
+
+.price {
+    color: red;
+}
+
+.rating {
+    color: orange;
+}
