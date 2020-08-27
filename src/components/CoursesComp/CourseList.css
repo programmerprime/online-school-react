@@ -1,12 +1,16 @@
 .main-component {
-    width: 700px;
-
+    width: 900px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
     border: 2px solid lightgray;
     padding:20px;
     margin: 20px;
 }
 
-.main-component h2 {
+.main-component h3 {
     color: slateblue;
 }
 
@@ -16,4 +20,14 @@
 
 .rating {
     color: orange;
+}
+
+.courseImage {
+   flex: 30%;
+   margin-right: 5px;
+   align-self: center;
+}
+
+.courseDesc {
+    flex: 70%;
 }
